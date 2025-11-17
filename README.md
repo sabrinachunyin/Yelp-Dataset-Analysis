@@ -1,80 +1,65 @@
-# Yelp-Dataset-Analysis
-A data exploration project analyzing business, review, and user trends from the Yelp Open Dataset.
----
-
-## Overview
-This project explores Yelp’s business and review ecosystem using Python-based data analysis. The goal is to understand:
-
-- What makes a business highly rated  
-- How review characteristics influence reputation  
-- City & category differences  
-- User behavior patterns (elite users, review volume, sentiment)
-
-The analysis includes EDA, visualizations, data cleaning, and insights to support business and marketing decision-making.
+# Yelp Restaurant Market Analysis  
+Using SQL-driven insights to identify ideal locations and opportunities for a new restaurant venture.
 
 ---
 
-## Project Structure
-Yelp-Dataset-Analysis/
-│
-├── notebooks/
-│ ├── Yelp Data Analysis.ipynb # Main analysis notebook
-│
-├── data/
-│ └── sample_cleaned_data.csv (optional)
-│
-└── README.md
+## Project Overview  
+This project analyzes the Yelp public dataset using SQL to uncover data-driven opportunities for launching a new restaurant concept. Our objective is to understand **which cities, categories, and market conditions offer the strongest potential for visibility, differentiation, and long-term growth**.
+
+Through analyzing restaurant diversity, review activity, customer engagement patterns, and category performance, we aim to provide strategic recommendations for market entry.
 
 ---
 
-## 🔧 Tools & Libraries
-- Python 3  
-- pandas  
-- numpy  
-- matplotlib  
-- seaborn  
-- scikit-learn (optional)  
-- Jupyter Notebook  
+## Project Goal  
+To determine **the best city and restaurant category** for opening a new restaurant by:
+
+- Identifying cities with **high restaurant diversity** and **active customer review engagement**
+- Detecting restaurant categories that have **high competition but low average rating**, signaling opportunities for improvement
+- Understanding customer satisfaction patterns and unmet needs through aggregated Yelp review data
+- Recommending where a new concept could stand out while benefiting from existing demand
 
 ---
 
-## 📊 Key Analyses
-### **1. Business Overview**
-- Rating distribution  
-- Business categories  
-- City-by-city comparison  
+## Key Insights from SQL Analysis  
 
-### **2. Review Insights**
-- Review length vs. rating  
-- Word frequency (positive vs. negative)  
-- Monthly trends  
+### 1. City-Level Market Opportunities  
+- Cities with **high restaurant diversity** tend to have a more dynamic and open food culture.  
+- Cities with **large and active review volumes** demonstrate strong customer engagement and higher discovery potential.  
+- These markets are especially promising for new entrants seeking visibility.
 
-### **3. User Characteristics**
-- Elite user behavior  
-- Review count vs. usefulness  
-- Rating patterns by user type  
+### 2. Category Performance & Opportunity Gaps  
+- Categories with **many existing restaurants but lower average ratings** signal areas where customers are underserved.  
+- Popular segments like **casual dining** or **fast food** show a mix of high demand but inconsistent satisfaction.  
+- These represent strong opportunities for **differentiation through quality**, without needing to create an unfamiliar category.
 
-### **4. Advanced (optional)**
-- Sentiment analysis  
-- Business clustering  
-- Identifying features of highly rated restaurants  
+### 3. Strategic Opportunity Summary  
+Our findings suggest the highest potential lies in:  
+- Entering **diverse, review-active cities** with strong customer engagement  
+- Targeting **popular but underperforming categories**, where improving quality can create immediate competitive advantage  
 
 ---
 
-## 📈 Example Visualizations
-*(Screenshots or plots can be added here)*
+## Methods & Tools
 
-- Rating distribution histogram  
-- Review text word clouds  
-- Correlation heatmap  
-- Business category bar charts  
+### **SQL Analysis**
+All insights were derived from SQL queries executed on the Yelp dataset, including:
+- City-level business aggregations  
+- Category-level performance ranking  
+- Review count and rating correlations  
+- Identification of underserved segments  
+
+### **Tools Used**
+- **MySQL / SQL Server / SQLite** (depending on your environment)
+- **Python (optional)** for visualization
+- **Tableau / Power BI (optional)** for dashboards
+- **GitHub** for project version control
 
 ---
 
-## 💡 Summary of Findings
-- High-rated businesses show more consistent review sentiment.  
-- Elite users tend to write longer, more influential reviews.  
-- Multi-category restaurants (e.g., Café + Bakery) tend to attract higher engagement.  
-- Review volume does not always correlate with rating.  
+## Final Recommendation  
+Based on the analysis, we plan to explore opening a new restaurant in a **city with strong restaurant diversity and high review activity**, ensuring both demand and visibility.  
+We will focus on **improving underperforming but highly popular categories**, such as casual dining or fast food, where customer dissatisfaction represents an opportunity for differentiation.
 
----
+This strategy places us in an active, opportunity-rich environment while addressing clear gaps in customer experience.
+
+
